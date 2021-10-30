@@ -1,0 +1,38 @@
+.changeLog-container{
+  border-radius: 1rem;
+  padding: 2.5rem ;
+  row-gap: .75rem;
+}
+
+.changeLog-title{
+  text-align: center;
+  margin-bottom: $mb-2-5;
+}
+
+.changeLog-data{
+  background: $container-color;
+  padding: 3.5rem;
+  border-radius: 1rem;
+  margin-bottom: $mb-2-5;
+}
+
+.changeLog-data-title{
+  font-size: 30px;
+  margin-bottom: $mb-1-5;
+}
+
+.changeLog-data-date{
+  color: $text-color;
+  margin-bottom: $mb-1-5;
+}
+
+.changeLog-data-list{
+  color: $title-color;
+  list-style-type: initial;
+  margin-left: $mb-1;
+}
+
+.changeLog-data-list li {
+  margin-bottom: $mb-0-5;
+}
+

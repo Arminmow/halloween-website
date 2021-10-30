@@ -1,0 +1,23 @@
+.myContainer {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden; /*For animation*/
+}
+
+.section{
+  padding: 4.5rem 0 2rem;
+}
+
+.section-title{
+  font-size: $h2-font-size;
+  margin-bottom: $mb-2;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+.button{
+  display: inline-block;
+  background-color: $first-color;
+  color: $title-color;
+  padding: 1rem 1.75rem ;
+  border-radius: .5rem;
+  font-weight: $font-medium;
+  transition: .3s;
+}
+
+.button:hover{
+  background-color: $first-color-alt;
+}
+
+.button-con{
+  font-size: 1.5rem;
+}
+
+.button-ghost{
+  border: 2px solid;
+  background-color: transparent;
+  border-radius: 3rem;
+  padding: .75rem 1.5rem ;
+}
+
+.button-ghost:hover{
+  background: none;
+}
+
+.button-link{
+  color: $title-color;
+}
+
+.button-flex{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+

@@ -1,0 +1,75 @@
+.new-container{
+  padding-top: 1rem;
+}
+
+.new-img{
+  width: 120px;
+  margin-bottom: $mb-0-5;
+  transition: .3s;
+}
+
+.new-content{
+  position: relative;
+  background: $container-color;
+  width: 242px;
+  padding: 2rem 0 1.5rem 0;
+  border-radius: .75rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.new-tag{
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  background-color: $first-color;
+  color: $title-color;
+  font-size: $small-font-size;
+  padding: .25rem .5rem;
+  border-radius: .25rem;
+}
+
+.new-title{
+  font-size: $normal-font-size;
+  font-weight: $font-medium;
+}
+
+.new-subtitle{
+  display: block;
+  font-size: $small-font-size;
+  margin-bottom: $mb-0-5;
+}
+
+.new-prices{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.new-discount{
+  color: $first-color;
+  font-size: $smaller-font-size;
+  text-decoration: line-through;
+  font-weight: $font-medium;
+}
+
+.new-button{
+  display: inline-flex;
+  padding: .5rem;
+  border-radius: .25rem .25rem .75rem .25rem;
+  position: absolute;
+  bottom: 0;
+  right: -3rem;
+}
+
+.new-icon{
+  font-size: 1.25rem;
+}
+
+.new-content:hover .new-img{
+  transform: translateY(-.9rem);
+}
+
+.new-content:hover .new-button{
+  right: 0;
+}

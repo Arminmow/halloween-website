@@ -1,0 +1,20 @@
+.discount-container{
+  background: $container-color;
+  border-radius: 1rem;
+  padding: 2.5rem 0 1.5rem;
+  row-gap: .75rem;
+}
+
+.discount-data{
+  text-align: center;
+}
+
+.discount-title{
+  font-size: $h2-font-size;
+  margin-bottom: $mb-2;
+}
+
+.discount-img{
+  width: 200px;
+  justify-self: center;
+}

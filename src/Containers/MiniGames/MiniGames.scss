@@ -1,0 +1,42 @@
+.miniGames-container {
+  border-radius: 1rem;
+  padding: 2.5rem 0 1.5rem;
+  row-gap: .75rem;
+}
+
+.miniGames-title {
+  text-align: center;
+  margin-bottom: $mb-2-5;
+}
+
+.miniGames-data {
+  display: flex;
+  background: $container-color;
+  padding: 1.5rem !important;
+  border-radius: 1rem;
+  margin-bottom: $mb-2-5;
+}
+
+.miniGames-data-title {
+  font-weight: $font-bold;
+  font-size: $h2-font-size;
+  margin-bottom: $mb-0-5;
+}
+
+.miniGames-data-img {
+  width: 200px;
+  justify-self: center;
+}
+
+.miniGames-button-container {
+  text-align: right;
+}
+
+.miniGames-button {
+  transition: .4s;
+  margin-top: 1.7rem;
+}
+
+.miniGames-button:hover {
+  letter-spacing: 2px;
+}

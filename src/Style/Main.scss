@@ -1,0 +1,52 @@
+@import "Variables/GlobalVariables";
+
+/*=============== BASE ===============*/
+@import "Base";
+
+/*=============== LAYOUT ===============*/
+@import "Layout";
+
+/*=============== HEADER ===============*/
+@import "src/Components/Header/Header";
+
+/*=============== HOME ===============*/
+@import "src/Containers/Home/Home";
+
+/*=============== BUTTONS ===============*/
+@import "Buttons";
+
+/*=============== CATEGORY ===============*/
+@import "src/Containers/Category/Category";
+
+/*=============== ABOUT ===============*/
+@import "src/Containers/About/About";
+
+/*=============== TRICK OR TREAT ===============*/
+@import "src/Containers/Trick/Trick";
+
+/*=============== DISCOUNT ===============*/
+@import "src/Containers/Discount/Discount";
+
+/*=============== NEW ARRIVALS ===============*/
+@import "src/Containers/Arrivals/Arrivals";
+
+/*=============== NEWSLETTER ===============*/
+@import "src/Containers/NewsLetter/NewsLetter";
+
+/*=============== FOOTER ===============*/
+@import "src/Containers/Footer/Footer";
+
+/*=============== SCROLL UP ===============*/
+@import "src/Components/ScrollUp";
+
+/*=============== SCROLL BAR ===============*/
+@import "ScrollBar";
+
+/*===============  CHANGELOG ===============*/
+@import "src/Containers/Changelog/ChangeLog";
+
+/*===============  MINI GAMES ===============*/
+@import "src/Containers/MiniGames/MiniGames";
+
+/*===============  BREAKPOINTS ===============*/
+@import "BreackPoints";
