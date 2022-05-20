@@ -1,3 +1,7 @@
+# Check it out. If not working use vpn
+
+https://arminmow-halloween-website.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
