@@ -1,6 +1,6 @@
-# Check it out. If not working use vpn
+# Live demo. If not working use vpn
 
-https://arminmow-halloween-website.herokuapp.com/
+https://arminmow-halloween-website.onrender.com/
 
 # Getting Started with Create React App
 
